@@ -64,7 +64,7 @@ else
 	echo "The tranSMART web site ($transmartUrl) is running"
 fi
 
-probe=$(curl -L $transmartUrl | grep "title" | grep "tranSMART")
+probe=$(curl -L $transmartUrl | grep "title" | grep -i "tranSMART")
 if [ -z "$probe" ] ; then
 	echo "The tranSMART web site (at $transmartUrl) is not delivering the login home page;"
 	echo "  see tomcat log file, /var/lib/tomcat7/logs/transmart.log for possible errors "

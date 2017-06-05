@@ -54,7 +54,7 @@ let "returnFlag=$returnFlag + $?"
 
 # check grails version, exactly 2.3.11
 desiredGrailsVersion="2.3.11"
-grailsVersion=$(grails --version | awk -F '^Grails version: ' '{print $2}')
+grailsVersion=$(sdk current grails | awk -F '^Using grails version ' '{print $2}')
 reportCheckExact "grails" $desiredGrailsVersion $grailsVersion
 
 let "returnFlag=$returnFlag + $?"

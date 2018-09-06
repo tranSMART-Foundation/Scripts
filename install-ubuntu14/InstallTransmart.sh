@@ -505,13 +505,8 @@ echo "+ Done with install - making final checks - (may take a while)"
 echo "++++++++++++++++++++++++++++"
 
 set e+
-<<<<<<< HEAD:install-ubuntu/InstallTransmart.sh
-cd $SCRIPTS_BASE/Scripts/install-ubuntu/checks
-sudo ./checkFilesTomcat.sh
-=======
 cd $SCRIPTS_BASE/Scripts/install-ubuntu14/checks
 ./checkFilesTomcat.sh
->>>>>>> transmart/master:install-ubuntu14/InstallTransmart.sh
 ./checkTools.sh
 ./checkWeb.sh
 

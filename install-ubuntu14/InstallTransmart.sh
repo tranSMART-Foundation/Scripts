@@ -26,25 +26,25 @@
 # Script Parameters
 TRANSMART_DATA_NAME="transmart-data-release-16.3"
 TRANSMART_DATA_ZIP="$TRANSMART_DATA_NAME.zip"
-TRANSMART_DATA_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_DATA_ZIP"
-TRANSMART_DATA_SIG_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_DATA_ZIP.sig"
-TRANSMART_DATA_MD5_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_DATA_ZIP.md5"
+TRANSMART_DATA_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_DATA_ZIP"
+TRANSMART_DATA_SIG_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_DATA_ZIP.sig"
+TRANSMART_DATA_MD5_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_DATA_ZIP.md5"
 
 TRANSMART_ETL_NAME="tranSMART-ETL-release-16.3"
 TRANSMART_ETL_ZIP="$TRANSMART_ETL_NAME.zip"
-TRANSMART_ETL_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_ETL_ZIP"
-TRANSMART_ETL_SIG_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_ETL_ZIP.sig"
-TRANSMART_ETL_MD5_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_ETL_ZIP.md5"
+TRANSMART_ETL_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_ETL_ZIP"
+TRANSMART_ETL_SIG_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_ETL_ZIP.sig"
+TRANSMART_ETL_MD5_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_ETL_ZIP.md5"
 
 TRANSMART_WAR_NAME="transmart.war"
-TRANSMART_WAR_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_WAR_NAME"
-TRANSMART_WAR_SIG_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_WAR_NAME.sig"
-TRANSMART_WAR_MD5_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_WAR_NAME.md5"
+TRANSMART_WAR_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_WAR_NAME"
+TRANSMART_WAR_SIG_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_WAR_NAME.sig"
+TRANSMART_WAR_MD5_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_WAR_NAME.md5"
 
 TRANSMART_GWAVA_WAR_NAME="gwava.war"
-TRANSMART_GWAVA_WAR_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_GWAVA_WAR_NAME"
-TRANSMART_GWAVA_WAR_SIG_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_GWAVA_WAR_NAME.sig"
-TRANSMART_GWAVA_WAR_MD5_URL="http://library.transmartfoundation.org/release/release16_2_0_artifacts/$TRANSMART_GWAVA_WAR_NAME.md5"
+TRANSMART_GWAVA_WAR_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_GWAVA_WAR_NAME"
+TRANSMART_GWAVA_WAR_SIG_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_GWAVA_WAR_NAME.sig"
+TRANSMART_GWAVA_WAR_MD5_URL="http://library.transmartfoundation.org/release/release16_3_0_artifacts/$TRANSMART_GWAVA_WAR_NAME.md5"
 
 # on error; stop/exit
 set -e
